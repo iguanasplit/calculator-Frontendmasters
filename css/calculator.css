@@ -7,6 +7,8 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
 }
 body {
     background-image:linear-gradient(to bottom right, #FDF0D5, #FDCBC7);
@@ -133,31 +135,25 @@ grid-gap: 0px;
     /* transition: .15s ease-in; */
   }
 
-  button:hover{
-    background-color: rgba(255, 255, 255, 0.486);
-    backdrop-filter: blur( 14px ) saturate(180%);
-    -webkit-backdrop-filter: blur( 14px ) saturate(180%);
-  }
+  
 
   button:active{
     background-color: rgba(255, 255, 255, 0.749);
-    backdrop-filter: blur( 14px ) saturate(180%);
--webkit-backdrop-filter: blur( 14px ) saturate(180%);
+    
 color:#D81E5B;
 
   }
 
   .num{
     background: rgba(255, 255, 255, 0.25);
-backdrop-filter: blur( 14px ) saturate(180%);
--webkit-backdrop-filter: blur( 14px ) saturate(180%);
+
   }
   
 
   .CA  {
     background: rgba(255, 255, 255, 0.60);
     backdrop-filter: blur( 14px ) saturate(180%);
--webkit-backdrop-filter: blur( 14px ) saturate(180%);
+
     grid-column-end: span 2;
     color:#D81E5B;
     font-weight: 400;
@@ -166,8 +162,7 @@ backdrop-filter: blur( 14px ) saturate(180%);
 
   .CA:active{
     background-color: rgba(255, 255, 255, 0.151);
-    backdrop-filter: blur( 14px ) saturate(180%);
--webkit-backdrop-filter: blur( 14px ) saturate(180%);
+   
 color:#331832c8;
 
   }
@@ -253,6 +248,44 @@ button{
   /* transition: .15s ease-in; */
 }
 
+      button:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    backdrop-filter: blur( 14px ) saturate(180%);
+    -webkit-backdrop-filter: blur( 14px ) saturate(180%);
+  }
+      
+        button:active{
+    background-color: rgba(255, 255, 255, 0.749);
+    backdrop-filter: blur( 14px ) saturate(180%);
+-webkit-backdrop-filter: blur( 14px ) saturate(180%);
+color:#D81E5B;
+
+  }
+
+  .num{
+    background: rgba(255, 255, 255, 0.25);
+backdrop-filter: blur( 14px ) saturate(180%);
+-webkit-backdrop-filter: blur( 14px ) saturate(180%);
+  }
+  
+
+  .CA  {
+    background: rgba(255, 255, 255, 0.60);
+    backdrop-filter: blur( 14px ) saturate(180%);
+-webkit-backdrop-filter: blur( 14px ) saturate(180%);
+    grid-column-end: span 2;
+    color:#D81E5B;
+    font-weight: 400;
+    
+  }
+
+  .CA:active{
+    background-color: rgba(255, 255, 255, 0.151);
+    backdrop-filter: blur( 14px ) saturate(180%);
+-webkit-backdrop-filter: blur( 14px ) saturate(180%);
+color:#331832c8;
+
+  }
 
   }
   

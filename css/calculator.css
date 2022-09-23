@@ -111,9 +111,7 @@ body {
 
 
 
-.grid-buttons {
- 
-    
+.grid-buttons {  
   display: grid;
   
   height:65rem;
@@ -147,8 +145,8 @@ color:#D81E5B;
 
   button:hover{
     
-     backdrop-filter: saturate(180%);
--webkit-backdrop-filter: saturate(180%);
+     backdrop-filter: saturate(100%);
+-webkit-backdrop-filter: saturate(100%);
 
 
   }

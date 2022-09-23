@@ -139,17 +139,13 @@ grid-gap: 0px;
 
   button:active{
     background-color: rgba(255, 255, 255, 0.749);
-     backdrop-filter: none;
--webkit-backdrop-filter: none;
+     backdrop-filter: saturate(180%);
+-webkit-backdrop-filter: saturate(180%);
 color:#D81E5B;
 
   }
 
- button:hover{
-    background-color: rgba(255, 255, 255, 0.486);
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-  }
+
   .num{
     background: rgba(255, 255, 255, 0.25);
 
@@ -158,8 +154,8 @@ color:#D81E5B;
 
   .CA  {
     background: rgba(255, 255, 255, 0.60);
-    backdrop-filter: none;
--webkit-backdrop-filter: none;
+    backdrop-filter: saturate(180%);
+-webkit-backdrop-filter: saturate(180%);
     grid-column-end: span 2;
     color:#D81E5B;
     font-weight: 400;
@@ -181,7 +177,7 @@ color:#331832c8;
   }
 
 
-  @media (min-width: 1300px) {
+  @media (min-width: 1000px) {
 
     .wrapper {
       
@@ -291,5 +287,4 @@ color:#331832c8;
   }
 
   }
-  
   

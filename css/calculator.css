@@ -137,7 +137,7 @@ grid-gap: 0px;
 
   
 
-  button:hover{
+  button:active{
     background-color: rgba(255, 255, 255, 0.749);
      backdrop-filter: saturate(180%);
 -webkit-backdrop-filter: saturate(180%);
@@ -162,7 +162,7 @@ color:#D81E5B;
     
   }
 
-  .CA:hover{
+  .CA:active{
     background-color: rgba(255, 255, 255, 0.151);
    backdrop-filter: none;
 -webkit-backdrop-filter: none;
